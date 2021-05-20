@@ -10,7 +10,7 @@ Het project is opgezet met [Create React App](https://github.com/facebook/create
 ## Eindresultaat
 Uiteindelijk zal de website er weer zo uit komen te zien. De gebruiker zal onze technische verbeteringen niet zien, dus eigenlijk gaat het eindresultaat vooral om de code.
 
-![Eindresultaat](src/assets/screenshots/screenshot.png)
+![Eindresultaat](public/assets/screenshots/screenshot.png)
 
 ## De applicatie starten
 Als je het project gecloned hebt naar jouw locale machine, installeer je eerst de node_modules door het volgende commando in de terminal te runnen:
@@ -31,13 +31,13 @@ Begin met het maken van wijzigingen in `src/App.js`: elke keer als je een bestan
 ## Stappenplan
 ### Buttons
 
-![Buttons](src/assets/screenshots/buttonbar.png)
+![Buttons](public/assets/screenshots/buttonbar.png)
 1. Plaats drie buttons op de pagina, omwikkeld door een `nav`-element. Als je op de buttons klikt, moet de buttontekst in de console verschijnen. De laatste van de drie is disabled.
 2. Maak nu een custom `Button`-component die alle benodigde data kan ontvangen, zodat hij voor alle drie de huidige uitvoeringen te gebruiken is. Vervang de huidige buttons door jouw
    custom component en geef de juiste informatie mee.
 
 ### Producten
-![Producten](src/assets/screenshots/products.png)
+![Producten](public/assets/screenshots/products.png)
 1. Maak een omwikkelende `main`-tag voor de producten. Stop daar vier `article`-elementen in zoals op bovenstaande afbeelding, met:
    * Een `span` voor het rode label
    * De afbeelding van de tassen
