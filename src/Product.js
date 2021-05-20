@@ -5,12 +5,12 @@ import React from 'react'
     return (
         <article>
             <span>{props.tag}</span>
-            <img src="" alt=""/>
+            <img src={props.image} alt=""/>
             <p>{props.productName}</p>
             <h4>{props.productPrice}</h4>
         </article>
 
     )
-};
+}
 
 export default Product;

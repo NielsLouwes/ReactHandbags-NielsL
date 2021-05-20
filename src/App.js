@@ -2,8 +2,12 @@ import React from 'react';
 import './App.css';
 import Buttons from "./Buttons";
 import Product from "./Product";
-// import bagOne from "../src/assets/bag_1.png";
-// import bagOne from "src/assets/bag_1.png";
+import bagOne from "./assets/bag_1.png"
+import bagTwo from "./assets/bag_2.png"
+import bagThree from "./assets/bag_3.png"
+import bagFour from "./assets/bag_4.png"
+
+import brandLogo from "./assets/brand.png"
 
 
 function App() {
@@ -19,7 +23,7 @@ function App() {
              <article>
                  <Product
                    tag = {"Best Seller"}
-                   // image = {bagOne}
+                   image = {bagOne}
                    productName = {"The handy bag"}
                    productPrice = {"$400,-"}
                  />
@@ -28,7 +32,7 @@ function App() {
              <article>
                  <Product
                      tag = {"Best Seller"}
-                     // image = {bagOne}
+                     image = {bagTwo}
                      productName = {"The stylish bag"}
                      productPrice = {"$250,-"}
                  />
@@ -37,7 +41,7 @@ function App() {
              <article>
                  <Product
                      tag = {"New Collection"}
-                     // image = {bagOne}
+                     image = {bagThree}
                      productName = {"The simple bag"}
                      productPrice = {"$300,-"}
                  />
@@ -46,7 +50,7 @@ function App() {
              <article>
                  <Product
                      tag = {"New Collection"}
-                     // image = {bagOne}
+                     image = {bagFour}
                      productName = {"The trendy bag"}
                      productPrice = {"$150,-"}
                  />
@@ -54,7 +58,8 @@ function App() {
          </main>
 
          <footer>
-             <img src="/src/assets/brand.png" alt=""/>
+             <img src={brandLogo} alt=""/>
+             <img src="" alt=""/>
          </footer>
 
 
