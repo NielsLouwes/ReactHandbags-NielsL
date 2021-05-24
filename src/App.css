@@ -6,6 +6,13 @@ main {
 
 nav {
     margin: 24px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav button {
+    margin: 0 30px;
 }
 
 footer {
