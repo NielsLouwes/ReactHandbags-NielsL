@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import Buttons from "./Buttons";
 import Product from "./Product";
+import Tiles from "./Tiles";
 import bagOne from "./assets/bag_1.png"
 import bagTwo from "./assets/bag_2.png"
 import bagThree from "./assets/bag_3.png"
 import bagFour from "./assets/bag_4.png"
 
 import brandLogo from "./assets/brand.png"
+import founder from "./assets/our_story.png"
 
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
          <nav>
              <Buttons title={"to the collection"}  />
              <Buttons title={"shop all bags"}  />
-             <Buttons title={"pre-orders"}  />
+             <Buttons title={"pre-orders"} />
          </nav>
 
          <main>
@@ -27,6 +29,7 @@ function App() {
                    productName = {"The handy bag"}
                    productPrice = {"$400,-"}
                  />
+
              </article>
 
              <article>
@@ -58,8 +61,33 @@ function App() {
          </main>
 
          <footer>
-             <img src={brandLogo} alt=""/>
-             <img src="" alt=""/>
+             <Tiles
+                 heading = {"THE BRAND"}
+                 story = {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dignissim diam sit amet dignissim. Suspendisse potenti. Nunc eu augue est. Nunc libero dui, mattis non magna non, iaculis sollicitudin enim. Phasellus a fermentum ante. Donec luctus mi et arcu."}
+                 />
+
+
+             <Tiles
+                 image = {brandLogo}
+             />
+
+             <Tiles
+                 heading = {"OUR STORY"}
+                 story = {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dignissim diam sit amet dignissim. Suspendisse potenti. Nunc eu augue est. Nunc libero dui, mattis non magna non, iaculis sollicitudin enim. Phasellus a fermentum ante. Donec luctus mi et arcu."}
+             />
+
+             <Tiles
+                 image = {founder}
+             />
+
+             {/*<Tiles*/}
+             {/*    heading = {"THE BRAND"}*/}
+             {/*    story = {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dignissim diam sit amet dignissim. Suspendisse potenti. Nunc eu augue est. Nunc libero dui, mattis non magna non, iaculis sollicitudin enim. Phasellus a fermentum ante. Donec luctus mi et arcu."}*/}
+             {/*/>*/}
+
+
+
+
          </footer>
 
 
